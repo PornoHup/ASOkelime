@@ -85,7 +85,7 @@ async def kelimeoyun(c:Client, m:Message):
 🔎 İpucu: 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq hərflərdən düzgün sözü tapın ASOresmi 🇦🇿
+✏️ Qarışıq hərflərdən düzgün sözü tapın @ASOresmi 🇦🇿
         """
         await c.send_message(m.chat.id, text)
         
