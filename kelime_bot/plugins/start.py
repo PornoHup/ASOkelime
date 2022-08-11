@@ -23,7 +23,7 @@ keyboard = InlineKeyboardMarkup([
 START = """
 **• Salam 👋
 
-• Mən Söz Oyun Botuyam 🎮 
+• Mən Söz Oyun Botuyam 🎮 @WerabliAnlar ✈️
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
