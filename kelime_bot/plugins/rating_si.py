@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 
-@Client.on_message(filters.command("reyting"))
+@Client.on_message(filters.command("gtop"))
 async def ratingsa(c:Client, m:Message):
     global rating
-    metin = """📝 Qlobal Grup Dərəcəsi :
+    metin = """📝 Qlobal Grup Dərəcəsi @ASOresmi 🇦🇿 :
 
 """
     eklenen = 0
