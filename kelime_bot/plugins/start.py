@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 keyboard = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("➕ Qrupa Əlavə Et", url=f"http://t.me/SozTapmacaRobot?startgroup=new")
+        InlineKeyboardButton("➕ Qrupa Əlavə Et", url=f"http://t.me/ASOsozutap_bot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("**Developer | 🧑🏻‍💻 Creator**", url="https://t.me/Axhmedov7"),
-        InlineKeyboardButton("**Chat 🎉**", url="https://t.me/RichSuppp"),
+        InlineKeyboardButton("**Owner |**", url="https://t.me/ismiyev95"),
+        InlineKeyboardButton("**ASO🇦🇿 Resmi **", url="https://t.me/RichSuppp"),
     ]
 ])
 
@@ -34,10 +34,10 @@ START = """
 
 HELP = """
 **✌️ Komutlar Menusuna XoşGəldiniz.**
-/basla - Oyunu Başladmak üçün..
-/pas - Cəmi 3 keçid Haqqınız Var.. 
-/reyting - Oyuncular arasındaki Xal bilgisi..
-/dayandir - Oyundan çıxmaq üçün lazımlı olan komutdur.. 
+/oyun - Oyunu Başladmak üçün..
+/kec - Cəmi 3 keçid Haqqınız Var.. 
+/gtop - Oyuncular arasındaki Xal bilgisi..
+/dayan - Oyundan çıxmaq üçün lazımlı olan komutdur.. 
 """
 
 # Komutlar. 
@@ -50,7 +50,7 @@ async def help(bot, message):
   await message.reply_photo("https://i.ibb.co/K6QTywd/images-17.jpg",caption=HELP) 
 
 # Oyunu başlat. 
-@Client.on_message(filters.command("basla")) 
+@Client.on_message(filters.command("oyun")) 
 async def kelimeoyun(c:Client, m:Message):
     global oyun
     aktif = False
@@ -61,9 +61,9 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayandir")
+        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayan")
     else:
-        await m.reply(f"**{m.from_user.mention}** Tərəfindən! \nKəlimə Tapma Oyunu Başladı .\n\nBol Şanslar !", reply_markup=kanal)
+        await m.reply(f"**{m.from_user.mention}** Tərəfindən! \nKəlimə Tapma Oyunu Başladı .\n\nBol Şanslar @ASOresmi 🇦🇿!", reply_markup=kanal)
         
         oyun[m.chat.id] = {"kelime":kelime_sec()}
         oyun[m.chat.id]["aktif"] = True
@@ -85,7 +85,7 @@ async def kelimeoyun(c:Client, m:Message):
 🔎 İpucu: 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq hərflərdən düzgün sözü tapın
+✏️ Qarışıq hərflərdən düzgün sözü tapın ASOresmi 🇦🇿
         """
         await c.send_message(m.chat.id, text)
         
