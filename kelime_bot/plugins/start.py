@@ -33,8 +33,8 @@ START = """
 """
 
 HELP = """
-**✌️ Komutlar Menusuna XoşGəldiniz.**
-/oyun - Oyunu Başladmak üçün..
+**✌️ Komutlar Menusuna Xoş Gəldiniz.**
+/oyun - Oyunu Başladmaq üçün..
 /kec - Cəmi 3 keçid Haqqınız Var.. 
 /gtop - Oyuncular arasındaki Xal bilgisi..
 /dayan - Oyundan çıxmaq üçün lazımlı olan komutdur.. 
