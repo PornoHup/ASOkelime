@@ -1,6 +1,6 @@
 import random
 
-kelimeler = ["gözəl ","bilmək ","sual","sağalmaq ","getmək","qalib","su","yarmaq","dəli","görmək",
+kelimeler = ["gözəl","stol","sual","sağalmaq","getmək","qalib","su","yarmaq","dəli","görmək",
 
              "yenidən", "çox", "fakt", "pul", "oynamaq", "çiçək", "şəhər", "yüksəlmək", "döyüş", "varlıq", "etmək",
 
