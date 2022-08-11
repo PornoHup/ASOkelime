@@ -40,7 +40,7 @@ async def passs(c:Client, m:Message):
 🔎 İ𝗉𝗎𝖼𝗎 : 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq: {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq hərflərdən düzgün sözü tapın
+✏️ Qarışıq hərflərdən düzgün sözü tapın @ASOresmi
             """
             await c.send_message(m.chat.id, text)
             
