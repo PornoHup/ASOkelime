@@ -8,7 +8,7 @@ kelimeler = ["gözəl","stol","sual","sağalmaq","getmək","qalib","su","yarmaq"
 
              "torpaq", "üzəri", "sistem", "xoş", "çəkilmək", "texnik", "yaxınlaşmaq", "ilbiz", "tarix", "kəsir", "bacı",
 
-             "incə", "deyər", "oyda", "qarşılıql","vermək", "sahib", "artıq", "kişi", "diyar", "dönəm", "yenə", "bunlar",
+             "incə", "deyər", "oyda", "qarşılıqlı","vermək", "sahib", "artıq", "kişi", "diyar", "dönəm", "yenə", "bunlar",
 
              "kitab", "xəta", "tapmaq", "siz", "dövlət", "qabaq", "enerji", "baxmaq", "xiyar", "oyun", "baş", "başlamaq",
 
