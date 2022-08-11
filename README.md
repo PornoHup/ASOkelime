@@ -1,5 +1,5 @@
-### Telegram Kelime Oyunu @vusaliw
+### Telegram Kelime Oyunu @ismiyev95
 📝
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nihatttm/kelimet-retv1-2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ismiyev/kelimet-retv1-2)
