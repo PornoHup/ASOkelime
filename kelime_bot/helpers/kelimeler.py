@@ -28,7 +28,7 @@ kelimeler = ["gözəl ","bilmək ","sual","sağalmaq ","getmək","qalib","su","y
 
              'baş', 'vaxt', 'məclis', 'getmək', 'sən', 'onlar', 'yeni', 'öncə', 'başqa', 'hell', 'orta', 'susuz', 'girmək', 'ölkə',
 
-             'yemək', 'heçnə', 'oxumaq', 'necə', 'bütün', 'qarşı', 'tapmaq', 'evli', 'yaşamaq', 'yuxari', 'güzgü', 'içmək', 'ancaq',
+             'yemək', 'heçnə', 'öyrətmək', 'necə', 'bütün', 'qarşı', 'tapmaq', 'evli', 'yaşamaq', 'yuxari', 'güzgü', 'içmək', 'ancaq',
 
              'kişi', 'bunlar', 'ağrı', 'ilk', 'göre', 'qabaq', 'son', 'biri', 'şəkil', 'önemli', 'yüz', 'həmin', 'göstərmək', 'etmək',
 
