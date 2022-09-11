@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 keyboard = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("➕ Qrupa Əlavə Et", url=f"http://t.me/ASOsozutap_bot?startgroup=new")
+        InlineKeyboardButton("➕ Qrupa Əlavə Et", url=f"http://t.me/TTKSOZOYUN_Bot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("**Owner |**", url="https://t.me/ismiyev95"),
-        InlineKeyboardButton("**ASO🇦🇿 Resmi **", url="https://t.me/RichSuppp"),
+        InlineKeyboardButton("**Owner |**", url="https://t.me/STFUZEYA"),
+        InlineKeyboardButton("**TTK Resmi **", url="https://t.me/TTK_teams"),
     ]
 ])
 
@@ -23,7 +23,7 @@ keyboard = InlineKeyboardMarkup([
 START = """
 **• Salam 👋
 
-• Mən Söz Oyun Botuyam 🎮 @WerabliAnlar ✈️
+• Mən Söz Oyun Botuyam 🎮 @TTK_teams ✈️
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
@@ -81,7 +81,7 @@ async def kelimeoyun(c:Client, m:Message):
         text = f"""
 🎯 Raund : {oyun[m.chat.id]['round']}/60 
 📝 Söz :   <code>{kelime_list}</code>
-💰 Qazanacağınız Xal: 1
+💰 Qazanacağınız Xal: 2
 🔎 İpucu: 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
 
